@@ -1,0 +1,52 @@
+
+==================== FINAL INTERFACE ====================
+2016-11-02 15:08:58.352438 UTC
+
+interface main@main:Word.Noun 8001
+  interface hash: 5413daa01c460786104088737f74e3b3
+  ABI hash: 15f7f3b83c5da51f4ea3b6658631797b
+  export-list hash: 90c5395a0c8bf0357fdcce11c15c961c
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 0341f13af4ac8db3deeed39a9592078c
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Word.Noun.myFunc
+module dependencies:
+package dependencies: base-4.9.0.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+family instance modules: base-4.9.0.0:Control.Applicative
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Const
+                         base-4.9.0.0:Data.Monoid base-4.9.0.0:Data.Type.Equality
+                         base-4.9.0.0:GHC.Generics base-4.9.0.0:GHC.IO.Exception
+                         base-4.9.0.0:GHC.TypeLits
+import  -/  base-4.9.0.0:GHC.Num 48f506a8f4ecf06285d0a0706594dcc0
+import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
+7e5294e5158d61eabca9a02da4aec0e6
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Word.Noun.$trModule2
+                   Word.Noun.$trModule1) -}
+9c8b74ba6043b588e91ea15aaa34497f
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Word.Noun"#) -}
+7b1566b8813516972d23afb8fce58c99
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+f01c6e28754a57831ea6acfaff3db4a3
+  myFunc :: GHC.Types.Int -> GHC.Types.Int -> GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (0, True, True) GHC.Num.$fNumInt_$c* -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
